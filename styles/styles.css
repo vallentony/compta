@@ -23,7 +23,7 @@ body {
     
 }
 .contact-section {
-    max-width: 600px;
+   
     width: 33vw;
     display: flex;
     flex-direction: column;
@@ -102,7 +102,7 @@ body {
 
 .vision-section {
     display: flex;
-    max-width: 600px;
+
     width: 33vw;
     gap: 20px;
     justify-content: center;
