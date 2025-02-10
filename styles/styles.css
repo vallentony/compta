@@ -181,6 +181,74 @@ footer {
     margin: auto;
 }
 
+.nav-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-section a {
+    color: #d4af37;
+    text-decoration: none;
+    
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.services-sections {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+
+}
+
+
+
+.service-element {
+    background-color: rgb(17, 35, 45);
+    border-radius: 25px;
+    width: 50vw;
+    height: 180px;
+    padding: 5px 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /*box-shadow: 2px 2px 4px rgba(0,0,0,0.8);*/
+}
+
+.service-element p {
+    text-align: left;
+    margin-left: 55px;
+
+}
+
+.service-element ul {
+    list-style-position: inside;
+    list-style-image: url('../img/logo/logo_small.png')
+
+}
+
+.service-element li {
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+.service-element:nth-child(1) {margin-left:10%}
+.service-element:nth-child(2) {margin-left:25%}
+.service-element:nth-child(3) {margin-left:40%}
+
+.service-element:hover {
+    transform: translateY(-4px);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 /*------------ MOBILE VIEW ------------*/
 
 @media (max-width: 600px) {
